@@ -11,19 +11,12 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="com.github.friedegg" level="trace" additivity="false">
+        <Logger name="com.github.friedegg" level="info" additivity="false">
             <AppenderRef ref="ConsoleAppender" />
         </Logger>
-        <Logger name="com.ibatis" level="debug" additivity="false">
+        <Logger name="com.sas.rio" level="warn" additivity="false">
             <AppenderRef ref="ConsoleAppender" />
         </Logger>
-        <Logger name="com.sas.rio" level="debug" additivity="false">
-            <AppenderRef ref="ConsoleAppender" />
-        </Logger>
-        <Logger name="com.zaxxer" level="debug" additivity="false">
-            <AppenderRef ref="ConsoleAppender" />
-        </Logger>
-
         <Root level="info">
             <AppenderRef ref="ConsoleAppender" />
         </Root>
