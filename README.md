@@ -13,6 +13,6 @@ the IOM driver to access third-party relational data.
 
 ## Resources
 
-[SAS](http://www.sas.com)
-[SAS Developers Community](https://communities.sas.com/t5/Developers/bd-p/developers)
-[SAS 9.4 Drivers for JDBC: Cookbook](https://documentation.sas.com/?docsetId=jdbcref&docsetTarget=p03fq49scrkkhmn141or225z0nc0.htm&docsetVersion=9.4&locale=en)
+* [SAS](http://www.sas.com)
+* [SAS Developers Community](https://communities.sas.com/t5/Developers/bd-p/developers)
+* [SAS 9.4 Drivers for JDBC: Cookbook](https://documentation.sas.com/?docsetId=jdbcref&docsetTarget=p03fq49scrkkhmn141or225z0nc0.htm&docsetVersion=9.4&locale=en)

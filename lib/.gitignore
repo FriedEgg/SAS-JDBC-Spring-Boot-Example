@@ -1,3 +1,9 @@
+# MVADriver
 sas.core.jar
 sas.svc.connection.jar
 sas.security.sspi.jar
+# AES Encryption
+sas.rutil.jar
+sastpj.rutil.jar
+# SSPI Auth
+*.dll

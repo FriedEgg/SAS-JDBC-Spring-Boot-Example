@@ -14,7 +14,10 @@ import java.util.List;
 @Mapper
 public interface IrisMapper {
 
-    @Select("select * from sashelp.iris where species=#{species}")
-    List<Iris> findBySpecies(@Param("species") String species);
+    @Select("select * from iris where Species=#{Species}")
+    List<Iris> findBySpecies(@Param("Species") String species);
+
+    @Insert("insert into iris ( SepalLength , SepalWidth , PetalLength , PetalWidth , Species ) values (#{sepalLength}, #{sepalWidth}, #{petalLength}, #{petalWidth}, #{species})")
+    void insert(Iris iris);
 
 }

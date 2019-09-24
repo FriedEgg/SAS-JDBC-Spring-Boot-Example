@@ -5,64 +5,67 @@ import java.io.Serializable;
 
 public class Iris implements Serializable {
 
-  private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-  private String species;
-  private Double sepalLength;
-  private Double sepalWidth;
-  private Double petalLength;
-  private Double petalWidth;
+    private String species;
+    private Double sepalLength;
+    private Double sepalWidth;
+    private Double petalLength;
+    private Double petalWidth;
 
-  public Iris(String species, Double sepalLength, Double sepalWidth, Double petalLength, Double petalWidth) {
-    this.species = species;
-    this.sepalLength = sepalLength;
-    this.sepalWidth = sepalWidth;
-    this.petalLength = petalLength;
-    this.petalWidth = petalWidth;
-  }
+    public Iris() {
+    }
 
-  public String getSpecies() {
-    return species;
-  }
+    public Iris(String species, Double sepalLength, Double sepalWidth, Double petalLength, Double petalWidth) {
+        this.species = species;
+        this.sepalLength = sepalLength;
+        this.sepalWidth = sepalWidth;
+        this.petalLength = petalLength;
+        this.petalWidth = petalWidth;
+    }
 
-  public void setSpecies(String species) {
-    this.species = species;
-  }
+    public String getSpecies() {
+        return species;
+    }
 
-  public Double getSepalLength() {
-    return sepalLength;
-  }
+    public void setSpecies(String species) {
+        this.species = species;
+    }
 
-  public void setSepalLength(Double sepalLength) {
-    this.sepalLength = sepalLength;
-  }
+    public Double getSepalLength() {
+        return sepalLength;
+    }
 
-  public Double getSepalWidth() {
-    return sepalWidth;
-  }
+    public void setSepalLength(Double sepalLength) {
+        this.sepalLength = sepalLength;
+    }
 
-  public void setSepalWidth(Double sepalWidth) {
-    this.sepalWidth = sepalWidth;
-  }
+    public Double getSepalWidth() {
+        return sepalWidth;
+    }
 
-  public Double getPetalLength() {
-    return petalLength;
-  }
+    public void setSepalWidth(Double sepalWidth) {
+        this.sepalWidth = sepalWidth;
+    }
 
-  public void setPetalLength(Double petalLength) {
-    this.petalLength = petalLength;
-  }
+    public Double getPetalLength() {
+        return petalLength;
+    }
 
-  public Double getPetalWidth() {
-    return petalWidth;
-  }
+    public void setPetalLength(Double petalLength) {
+        this.petalLength = petalLength;
+    }
 
-  public void setPetalWidth(Double petalWidth) {
-    this.petalWidth = petalWidth;
-  }
+    public Double getPetalWidth() {
+        return petalWidth;
+    }
 
-  @Override
-  public String toString() {
-    return getSpecies() + "," + getSepalLength() + "," + getSepalWidth() + "," + getPetalLength() + "," + getPetalWidth();
-  }
+    public void setPetalWidth(Double petalWidth) {
+        this.petalWidth = petalWidth;
+    }
+
+    @Override
+    public String toString() {
+        return getSpecies() + "," + getSepalLength() + "," + getSepalWidth() + "," + getPetalLength() + "," + getPetalWidth();
+    }
 }
